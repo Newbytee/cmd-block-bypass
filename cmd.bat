@@ -1,5 +1,5 @@
 @echo off 
 :A 
-set /P the="%cd%>" 
-%the% 
+set /P x="%cd%>" 
+%x% 
 goto A
