@@ -7,7 +7,7 @@ may get you into trouble for using this: don't use it if you don't know
 that you are allowed to. Any such usage is on your own risk.
 
 ## How it works, line by line
-1.```
+1. ```
 @echo off
 ```
 
