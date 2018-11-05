@@ -42,6 +42,6 @@ Take the user's input (which we put in the variable x in the previous step) and 
 goto A
 ```
 
-Restart the whole process so that the user can run more than one command without CMD exiting on them.
+Restarts the whole process by jumping to label A so that the user can run more than one command without CMD exiting on them.
 
 ... and that's it!
