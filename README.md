@@ -7,21 +7,22 @@ may get you into trouble for using this: don't use it if you don't know
 that you are allowed to. Any such usage is on your own risk.
 
 ## How it works, line by line
-1.
+
+### 1.
 ```
 @echo off
 ```
 
 Hides the commands run by the script from the user to make it tidier and less annoying to use.
 
-2.
+### 2.
 ```
 :A
 ```
 
 Adds the label ```A``` for use later in the script.
 
-3.
+### 3.
 ```
 set /P x="%cd%>"
 ```
@@ -30,14 +31,14 @@ Prints out the current path (given to us by the variable %cd%, where cd stands f
 
 And yes, you could change this part to theme CMD to look like bash, zsh, ash, or whatever to some degree.
 
-4.
+### 4.
 ```
 %x%
 ```
 
 Take the user's input (which we put in the variable x in the previous step) and run it.
 
-5.
+### 5.
 ```
 goto A
 ```
